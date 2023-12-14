@@ -40,27 +40,27 @@ def titles(num):  # переделывает индексы карт без ци
 def ost(hand):  # ИИ, отвратительный, примитивный, мне за это стыдно
     chance = hand
     if chance >= 20:
-        return 0
+        return 0 # 100% шанс, что out
     if chance <= 11:
-        return 1
+        return 1 # 100% шанс, что In
     if 12 <= chance <= 14:
         a = random.randint(1, 4)
-        if a == 4:
+        if a == 4: # 75% шанс , что in
             return 0
         else:
             return 1
     if 15 <= chance <= 16:
         a = random.randint(0, 1)
-        return a
+        return a # 50 на 50
     if 17 <= chance <= 19:
         a = random.randint(1, 10)
         if a == 10:
-            return 1
+            return 1 # 90% шанс, что out
         else:
             return 0
 
 
-loses = 0
+loses = 0 #статистика
 wins = 0
 draws = 0
 print('Hello, my friend and welcome to "21" game! I hope you know the rules! Good luck!')
