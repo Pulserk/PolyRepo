@@ -95,7 +95,7 @@ while True:
                 break
             elif win(p_hand, c_hand) == 0:
                 sleep(2)
-                print('Such a case, both have', p_hand, c_hand, '. Good luck next time mate...')
+                print('Such a case, both have', p_hand, '. Good luck next time mate...')
                 draws += 1
                 break
         if p_turn:  # Проверка возможности хода
