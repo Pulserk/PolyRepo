@@ -1,4 +1,5 @@
-# PolyRepo
-For my education stuff 
+# Hello world! 👋
+Hi! My name is Timur (but my friends call me kefir). 
 
-Hi! My name is Timur (but my friends call me kefir).                   Here i will post some low-quality code on Python! Yeah!
+# AboutMe
+Here i will post some low-quality code on Python! Yeah! I'm a student. Practising some languages, Pyhton, C++ and C# (but currently just Python).
